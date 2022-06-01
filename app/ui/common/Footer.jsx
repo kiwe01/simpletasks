@@ -65,6 +65,7 @@ export const Footer = () => (
         <a href="https://twitter.com/fredmaiaarantes" target="_blank">
           @fredmaiaarantes
         </a>
+	<a> Customized by Kilian Weber</a>
         .
       </Text>
     </Stack>

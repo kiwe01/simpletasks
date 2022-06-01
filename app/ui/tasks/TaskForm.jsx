@@ -64,7 +64,7 @@ export const TaskForm = () => {
               size="sm"
               type="submit"
               isLoading={formik.isSubmitting}
-              colorScheme="blue"
+              colorScheme="green"
             >
               Add Task
             </Button>

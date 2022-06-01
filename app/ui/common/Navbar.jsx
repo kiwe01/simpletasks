@@ -29,8 +29,8 @@ export const Navbar = () => {
   return (
     <Box>
       <Flex
-        bg={useColorModeValue('white', 'gray.800')}
-        color={useColorModeValue('gray.600', 'white')}
+        bg={useColorModeValue('white', 'green.800')}
+        color={useColorModeValue('green.600', 'white')}
         minH="60px"
         py={{ base: 2 }}
         px={{ base: 4 }}
@@ -46,7 +46,7 @@ export const Navbar = () => {
             color={useColorModeValue('gray.800', 'white')}
           >
             <Link
-              bgGradient="linear(to-l, #675AAA, #4399E1)"
+              bgGradient="linear(to-l, #85AA5A, #43E159)"
               bgClip="text"
               onClick={() => navigate(RoutePaths.ROOT)}
             >

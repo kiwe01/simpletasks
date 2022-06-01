@@ -14,7 +14,7 @@ export const TaskItem = memo(({ task, onMarkAsDone, onDelete }) => (
     </Box>
     <Stack w="20%" justify="flex-end" direction="row">
       <Button
-        colorScheme="red"
+        colorScheme="purple"
         variant="outline"
         size="xs"
         onClick={() => onDelete(task._id)}

@@ -72,7 +72,7 @@ export default function LoginPage() {
         <Stack align="center">
           <Heading
             fontSize="4xl"
-            bgGradient="linear(to-l, #675AAA,#4399E1)"
+            bgGradient="linear(to-l, #87AA5A,#43E159)"
             bgClip="text"
           >
             Sign in to your account
@@ -83,7 +83,7 @@ export default function LoginPage() {
         </Stack>
         <Box
           rounded="lg"
-          bg={useColorModeValue('white', 'gray.700')}
+          bg={useColorModeValue('white', 'green.700')}
           boxShadow="lg"
           p={8}
         >
@@ -129,7 +129,7 @@ export default function LoginPage() {
                   <Stack spacing={10}>
                     <Button
                       type="submit"
-                      bg="blue.400"
+                      bg="green.400"
                       color="white"
                       _hover={{
                         bg: 'blue.500',
