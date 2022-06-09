@@ -9,6 +9,7 @@ import {
   useColorMode,
   useColorModeValue,
   Link,
+  Image
 } from '@chakra-ui/react';
 import { MoonIcon, SunIcon } from '@chakra-ui/icons';
 import { useTracker } from 'meteor/react-meteor-data';
@@ -50,7 +51,7 @@ export const Navbar = () => {
               bgClip="text"
               onClick={() => navigate(RoutePaths.ROOT)}
             >
-              Simple Tasks
+              <Image src="/logo.png" />
             </Link>
           </Text>
         </Flex>
